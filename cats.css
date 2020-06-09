@@ -1,0 +1,61 @@
+*{
+    box-sizing:border-box;
+}
+html,body{
+    margin:0 auto;
+    width:1000px;
+    height:900px;
+    font-family:fantasy;
+}
+
+.container{
+    width:1000px;
+    height:550px;
+    border:0;
+    border-radius:10px;
+    
+}
+
+h1{
+    margin-left:120px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#my-quotes{
+     width:800px;
+     height:40px;
+     font-family:cursive;
+     border-radius:3px;
+     border:0;
+     background-clip: padding-box;
+     background-color:#fffff2;
+     color:#111010;
+     margin-left:100px;
+     padding:3px;
+}
+
+button{
+    width:100px;
+    height:30px;
+    border:0;
+    border-radius:4px;
+    background-color:#34a04c;
+    color:#e4c2c1;
+    margin-top:4%;
+    margin-left:45%;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+#cat-div{
+    width:400px;
+    height:300px;
+    border:0;
+    background-color:#f5f6fc;
+    margin-left:300px;
+    margin-top: 30px;
+
+}
+
