@@ -32,8 +32,10 @@ fetch('https://api.thecatapi.com/v1/images/search')
 })
 .then(cats =>{
     cats.forEach(cat =>{
-        catDiv.innerHTML = `<h2>Here are some gorgeous pics of kittens..</h2><br>
-        <img src ="${cat.url}" alt="Great Kitty" width = 70% height =60%>` 
+        catDiv.innerHTML = `<img src ="${cat.url}" alt="Great Kitty" width = 70% height =60%>` 
     })    
 })
-})
+.catch(error =>{
+    catDiv.innerHTML = `<p>${error}</p>`
+});
+});
